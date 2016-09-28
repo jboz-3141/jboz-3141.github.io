@@ -307,12 +307,12 @@ table, th, td{
 
 }
 
-th {
-	height: 75px;
-}
-td {
+th, td{
 	height: 50px;
+	text-align:center;
+	vertical-align:middle;
 }
+
 
 
 

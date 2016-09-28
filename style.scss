@@ -298,19 +298,20 @@ footer {
 @import "svg-icons";
 
 
-table, th, {
-   border: 1px solid black;
-}
 
 
 
-table, th,  {
-   border: 1px solid black;
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+
 }
 
 th {
-	height: 50px;
+	height: 75px;
 }
+td {
+	height: 50px
 
 
 

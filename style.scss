@@ -31,10 +31,9 @@ body {
 	max-width: 740px;
 	padding: 0 10px;
 	width: 100%;
-	rgba:(117, 121, 229, 0.4);
+	rgb:(117, 121, 229,);
 }
-
-h1, h2, h3, h4, h5, h6 {
+   h1, h2, h3, h4, h5, h6 {
   font-family:"courier new";
   color: #ecf0f1;
   font-weight: bold;
@@ -314,6 +313,11 @@ th, td{
 	text-align:center;
 	vertical-align:middle;
 }
+
+th{
+	background-color: #800000;
+	color: white;
+	
 
 
 

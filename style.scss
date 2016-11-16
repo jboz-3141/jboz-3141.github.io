@@ -330,7 +330,9 @@ th {
     cursor: pointer;
 }
 
-
+.dropdown:hover .dropdown-content {
+    display: block;
+	
 .dropdown-content {
     display: none;
     position: absolute;

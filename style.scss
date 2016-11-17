@@ -322,7 +322,7 @@ th {
 }
 
 .dropbtn {
-    background-color: #663300;
+    background-color:#663300;
     color: white;
     font-size: 16px;
 }
@@ -330,7 +330,9 @@ th {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #663300;
+    background-color:#663300;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .dropdown:hover .dropdown-content {
     display: block;

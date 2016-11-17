@@ -339,6 +339,10 @@ th {
 }
 
 .dropdown-content a {
-    color: black;
+    color: white;
     display: block;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;

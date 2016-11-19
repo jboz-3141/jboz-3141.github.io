@@ -307,8 +307,7 @@ th {
 }
 
 
-.dropbtn {
-    right: 0px;
+.dropbtn {  
     background-color:#996633;
     color: black;
     padding: 16px;
@@ -322,7 +321,8 @@ th {
 
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: inline-block;   
+    right: 0px;
 }
 
 

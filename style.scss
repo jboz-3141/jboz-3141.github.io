@@ -364,3 +364,9 @@ ul.img-list li {
   display: inline-block;
   position: relative;
 }
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}

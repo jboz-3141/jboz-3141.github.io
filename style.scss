@@ -374,6 +374,7 @@ ul.img-list {
   padding: 0;
   text-align: center;
   width: 100%;
+  z-index: -100;
 }
 
 ul.img-list li {
@@ -383,6 +384,7 @@ ul.img-list li {
   width: 100%;
   overflow: hidden;
   padding: 0;
+  z-index: -100;
 }
 
 span.text-content {

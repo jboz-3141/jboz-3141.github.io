@@ -356,7 +356,7 @@ th {
 
 
 span {
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #fef6eb;
@@ -367,9 +367,7 @@ ul.img-list {
   margin: 0;
   padding: 0;
   text-align: center;
-  overflow: auto;
   width: 100%;
-  overflow: hidden;
 }
 
 ul.img-list li {
@@ -381,40 +379,12 @@ ul.img-list li {
   padding: 0;
 }
 
-ul.img-list li:hover span.text-content {
-  opacity: 1;
-  padding-bottom: 0px;
-}
-
 span.text-content {
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
+  color: black;
   cursor: pointer;
-  display: table;
-  height: 350px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  opacity: 0;
-  padding-bottom: 100px;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
 
-ul.img-list li:hover span.text-content span {
-  padding-bottom: 0px;
-}
 
 span.text-content span {
   display: table-cell;
   text-align: center;
-  vertical-align: middle;
-  padding-bottom: 100px;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
 }

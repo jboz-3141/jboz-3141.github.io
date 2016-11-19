@@ -18,9 +18,10 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	background-image: url"http://www.psdgraphics.com/file/light-wooden-background.jpg";
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #000000;	
 }
 
 .container {

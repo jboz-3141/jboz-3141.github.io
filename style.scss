@@ -354,3 +354,13 @@ th {
     background-color: #996600;
 }
 
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  position: relative;
+}

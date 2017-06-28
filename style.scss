@@ -118,7 +118,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: white;
 }
 
 // Specify the color of the selection
@@ -193,7 +193,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: white;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -203,7 +203,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: white;
   font-size: 16px;
 
   @include mobile {
@@ -233,7 +233,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: white;
     }
   }
 }
@@ -291,6 +291,7 @@ footer {
 table, th, td{
 	border: 1px solid black;
 	border-collapse: collapse;
+	color: white
 }
 
 th, td{
@@ -363,7 +364,7 @@ span {
   font-size: 20px;
   font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: black;
+  color: white;
   vertical-align: bottom;
   padding-bottom: 100px;
 }
@@ -388,7 +389,7 @@ ul.img-list li {
 }
 
 span.text-content {
-  color: black;
+  color: white;
   cursor: pointer;
 }
 

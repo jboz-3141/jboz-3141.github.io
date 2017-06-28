@@ -255,9 +255,8 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: white;
     font-size: 22px;
     font-style: italic;
   }
@@ -298,7 +297,8 @@ th, td{
 	height: 50px;
 	text-align:center;
 	vertical-align:middle;
-	width: 30%; 
+	width: 30%;
+	color: white;
 }
 
 th {
